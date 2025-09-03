@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+}
+body { font-family: 'Inter', sans-serif; }
+#dropZone:hover { border-color: #3b82f6; }
+.file-card { transition: transform 0.2s, box-shadow 0.2s; }
+.file-card:hover { transform: translateY(-4px); box-shadow: 0 8px 16px rgba(0,0,0,0.1); }
+.dark .file-card:hover { box-shadow: 0 8px 16px rgba(0,0,0,0.3); }
+#toast.success { background: #10b981; color: white; }
+#toast.error { background: #ef4444; color: white; }
